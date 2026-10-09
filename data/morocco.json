@@ -1,0 +1,67 @@
+[
+  {
+    "code": "06",
+    "nameFr": "Casablanca-Settat",
+    "nameAr": "الدار البيضاء - سطات",
+    "cities": [
+      {
+        "id": "casablanca",
+        "nameFr": "Casablanca",
+        "nameAr": "الدار البيضاء",
+        "zipCode": "20000",
+        "neighborhoods": [
+          {
+            "id": "maarif",
+            "nameFr": "Maârif",
+            "nameAr": "المعارف",
+            "avgRentRoomMin": 1800,
+            "avgRentRoomMax": 2600
+          },
+          {
+            "id": "bourgogne",
+            "nameFr": "Bourgogne",
+            "nameAr": "بورغون",
+            "avgRentRoomMin": 1600,
+            "avgRentRoomMax": 2300
+          },
+          {
+            "id": "gauthier",
+            "nameFr": "Gauthier",
+            "nameAr": "غوتييه",
+            "avgRentRoomMin": 2200,
+            "avgRentRoomMax": 3200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "04",
+    "nameFr": "Rabat-Salé-Kénitra",
+    "nameAr": "الرباط - سلا - القنيطرة",
+    "cities": [
+      {
+        "id": "rabat",
+        "nameFr": "Rabat",
+        "nameAr": "الرباط",
+        "zipCode": "10000",
+        "neighborhoods": [
+          {
+            "id": "agdal",
+            "nameFr": "Agdal",
+            "nameAr": "أكدال",
+            "avgRentRoomMin": 1900,
+            "avgRentRoomMax": 2700
+          },
+          {
+            "id": "hay_riad",
+            "nameFr": "Hay Riad",
+            "nameAr": "حي الرياض",
+            "avgRentRoomMin": 2500,
+            "avgRentRoomMax": 3500
+          }
+        ]
+      }
+    ]
+  }
+]
