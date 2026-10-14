@@ -1,36 +1,127 @@
 [
   {
-    "code": "06",
-    "nameFr": "Casablanca-Settat",
-    "nameAr": "الدار البيضاء - سطات",
+    "code": "01",
+    "nameFr": "Tanger-Tétouan-Al Hoceïma",
+    "nameAr": "طنجة - تطوان - الحسيمة",
     "cities": [
       {
-        "id": "casablanca",
-        "nameFr": "Casablanca",
-        "nameAr": "الدار البيضاء",
-        "zipCode": "20000",
+        "id": "tanger",
+        "nameFr": "Tanger",
+        "nameAr": "طنجة",
+        "zipCode": "90000",
         "neighborhoods": [
-          {
-            "id": "maarif",
-            "nameFr": "Maârif",
-            "nameAr": "المعارف",
-            "avgRentRoomMin": 1800,
-            "avgRentRoomMax": 2600
-          },
-          {
-            "id": "bourgogne",
-            "nameFr": "Bourgogne",
-            "nameAr": "بورغون",
-            "avgRentRoomMin": 1600,
-            "avgRentRoomMax": 2300
-          },
-          {
-            "id": "gauthier",
-            "nameFr": "Gauthier",
-            "nameAr": "غوتييه",
-            "avgRentRoomMin": 2200,
-            "avgRentRoomMax": 3200
-          }
+          { "id": "malabata", "nameFr": "Malabata", "nameAr": "ملاباطا", "avgRentRoomMin": 2200, "avgRentRoomMax": 3200 },
+          { "id": "centre_ville_tanger", "nameFr": "Centre-ville", "nameAr": "وسط المدينة", "avgRentRoomMin": 1800, "avgRentRoomMax": 2500 },
+          { "id": "california_tanger", "nameFr": "California", "nameAr": "كاليفورنيا", "avgRentRoomMin": 2500, "avgRentRoomMax": 3800 },
+          { "id": "iberia", "nameFr": "Iberia", "nameAr": "إيبيريا", "avgRentRoomMin": 2000, "avgRentRoomMax": 2800 },
+          { "id": "boukhalef", "nameFr": "Boukhalef", "nameAr": "بوخالف", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "mesnana", "nameFr": "Mesnana", "nameAr": "مسنانة", "avgRentRoomMin": 1200, "avgRentRoomMax": 1700 },
+          { "id": "marchan", "nameFr": "Marchan", "nameAr": "مرشان", "avgRentRoomMin": 1700, "avgRentRoomMax": 2400 },
+          { "id": "val_fleuri", "nameFr": "Val Fleuri", "nameAr": "فال فلوري", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 }
+        ]
+      },
+      {
+        "id": "tetouan",
+        "nameFr": "Tétouan",
+        "nameAr": "تطوان",
+        "zipCode": "93000",
+        "neighborhoods": [
+          { "id": "ensra", "nameFr": "Ensra", "nameAr": "النسرة", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "wilaya_tetouan", "nameFr": "Wilaya", "nameAr": "الولاية", "avgRentRoomMin": 1800, "avgRentRoomMax": 2500 },
+          { "id": "touabel", "nameFr": "Touabel", "nameAr": "طوابل", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "sania_ramel", "nameFr": "Sania Ramel", "nameAr": "سانية الرمل", "avgRentRoomMin": 1300, "avgRentRoomMax": 1800 }
+        ]
+      },
+      {
+        "id": "al_hoceima",
+        "nameFr": "Al Hoceïma",
+        "nameAr": "الحسيمة",
+        "zipCode": "32000",
+        "neighborhoods": [
+          { "id": "calabonita", "nameFr": "Calabonita", "nameAr": "كاليابونيتا", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "mirador", "nameFr": "Mirador", "nameAr": "ميرادور", "avgRentRoomMin": 1300, "avgRentRoomMax": 1800 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "02",
+    "nameFr": "L'Oriental",
+    "nameAr": "الجهة الشرقية",
+    "cities": [
+      {
+        "id": "oujda",
+        "nameFr": "Oujda",
+        "nameAr": "وجدة",
+        "zipCode": "60000",
+        "neighborhoods": [
+          { "id": "hay_al_quods", "nameFr": "Hay Al Quods", "nameAr": "حي القدس", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "lazaret", "nameFr": "Lazaret", "nameAr": "لازاري", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "centre_oujda", "nameFr": "Centre-ville", "nameAr": "وسط المدينة", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "universite_oujda", "nameFr": "Quartier Universitaire", "nameAr": "الحي الجامعي", "avgRentRoomMin": 1000, "avgRentRoomMax": 1400 }
+        ]
+      },
+      {
+        "id": "nador",
+        "nameFr": "Nador",
+        "nameAr": "الناظور",
+        "zipCode": "62000",
+        "neighborhoods": [
+          { "id": "hay_arrif", "nameFr": "Hay Arrif", "nameAr": "حي الريف", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "nador_jadid", "nameFr": "Nador El Jadid", "nameAr": "الناظور الجديد", "avgRentRoomMin": 1400, "avgRentRoomMax": 2100 }
+        ]
+      },
+      {
+        "id": "berkane",
+        "nameFr": "Berkane",
+        "nameAr": "بركان",
+        "zipCode": "63300",
+        "neighborhoods": [
+          { "id": "hay_bayou", "nameFr": "Hay Bayou", "nameAr": "حي بايو", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "03",
+    "nameFr": "Fès-Meknès",
+    "nameAr": "فاس - مكناس",
+    "cities": [
+      {
+        "id": "fes",
+        "nameFr": "Fès",
+        "nameAr": "فاس",
+        "zipCode": "30000",
+        "neighborhoods": [
+          { "id": "ville_nouvelle_fes", "nameFr": "Ville Nouvelle", "nameAr": "المدينة الجديدة", "avgRentRoomMin": 1500, "avgRentRoomMax": 2200 },
+          { "id": "narjiss", "nameFr": "Narjiss", "nameAr": "النرجس", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 },
+          { "id": "route_immouzer", "nameFr": "Route d'Immouzer", "nameAr": "طريق إيموزار", "avgRentRoomMin": 1800, "avgRentRoomMax": 2600 },
+          { "id": "champs_de_course", "nameFr": "Champs de Course", "nameAr": "ملعب الخيل", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 },
+          { "id": "atlas", "nameFr": "Atlas", "nameAr": "الأطلس", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "montfleuri", "nameFr": "Montfleuri", "nameAr": "مونفلوري", "avgRentRoomMin": 1200, "avgRentRoomMax": 1700 },
+          { "id": "zouagha", "nameFr": "Zouagha", "nameAr": "زواغة", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "medina_fes", "nameFr": "Ancienne Médina", "nameAr": "المدينة القديمة", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 }
+        ]
+      },
+      {
+        "id": "meknes",
+        "nameFr": "Meknès",
+        "nameAr": "مكناس",
+        "zipCode": "50000",
+        "neighborhoods": [
+          { "id": "hamria", "nameFr": "Hamria", "nameAr": "حمرية", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "mansour", "nameFr": "Hay Mansour", "nameAr": "حي المنصور", "avgRentRoomMin": 1200, "avgRentRoomMax": 1700 },
+          { "id": "bassatine", "nameFr": "Bassatine", "nameAr": "البساتين", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "marjane_meknes", "nameFr": "Marjane", "nameAr": "مرجان", "avgRentRoomMin": 1500, "avgRentRoomMax": 2100 }
+        ]
+      },
+      {
+        "id": "taza",
+        "nameFr": "Taza",
+        "nameAr": "تازة",
+        "zipCode": "35000",
+        "neighborhoods": [
+          { "id": "taza_haute", "nameFr": "Taza Haute", "nameAr": "تازة العليا", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 }
         ]
       }
     ]
@@ -46,20 +137,330 @@
         "nameAr": "الرباط",
         "zipCode": "10000",
         "neighborhoods": [
-          {
-            "id": "agdal",
-            "nameFr": "Agdal",
-            "nameAr": "أكدال",
-            "avgRentRoomMin": 1900,
-            "avgRentRoomMax": 2700
-          },
-          {
-            "id": "hay_riad",
-            "nameFr": "Hay Riad",
-            "nameAr": "حي الرياض",
-            "avgRentRoomMin": 2500,
-            "avgRentRoomMax": 3500
-          }
+          { "id": "agdal", "nameFr": "Agdal", "nameAr": "أكدال", "avgRentRoomMin": 1900, "avgRentRoomMax": 2700 },
+          { "id": "hay_riad", "nameFr": "Hay Riad", "nameAr": "حي الرياض", "avgRentRoomMin": 2500, "avgRentRoomMax": 3500 },
+          { "id": "hassan", "nameFr": "Hassan", "nameAr": "حسان", "avgRentRoomMin": 1800, "avgRentRoomMax": 2500 },
+          { "id": "souissi", "nameFr": "Souissi", "nameAr": "السويسي", "avgRentRoomMin": 3000, "avgRentRoomMax": 4500 },
+          { "id": "ocean", "nameFr": "L'Océan", "nameAr": "المحيط", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "les_orangers", "nameFr": "Les Orangers", "nameAr": "الليمون", "avgRentRoomMin": 1600, "avgRentRoomMax": 2200 },
+          { "id": "takaddoum", "nameFr": "Takaddoum", "nameAr": "التقدم", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 },
+          { "id": "yacoub_mansour", "nameFr": "Yacoub El Mansour", "nameAr": "يعقوب المنصور", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 }
+        ]
+      },
+      {
+        "id": "sale",
+        "nameFr": "Salé",
+        "nameAr": "سلا",
+        "zipCode": "11000",
+        "neighborhoods": [
+          { "id": "bettana", "nameFr": "Bettana", "nameAr": "بطانة", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "hay_karima", "nameFr": "Hay Karima", "nameAr": "حي كريمة", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "sala_al_jadida", "nameFr": "Sala Al Jadida", "nameAr": "سلا الجديدة", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "tabriquet", "nameFr": "Tabriquet", "nameAr": "تابريقت", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "marina_sale", "nameFr": "Marina Salé", "nameAr": "مارينا سلا", "avgRentRoomMin": 2200, "avgRentRoomMax": 3200 }
+        ]
+      },
+      {
+        "id": "kenitra",
+        "nameFr": "Kénitra",
+        "nameAr": "القنيطرة",
+        "zipCode": "14000",
+        "neighborhoods": [
+          { "id": "maamora", "nameFr": "Maamora", "nameAr": "المعمورة", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "mimosa", "nameFr": "Mimosa", "nameAr": "ميموزا", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "val_fleuri_kenitra", "nameFr": "Val Fleuri", "nameAr": "فال فلوري", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "mehdia", "nameFr": "Mehdia", "nameAr": "المهدية", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 }
+        ]
+      },
+      {
+        "id": "skhirat_temara",
+        "nameFr": "Témara",
+        "nameAr": "تمارة",
+        "zipCode": "12000",
+        "neighborhoods": [
+          { "id": "wfg", "nameFr": "Wifaq", "nameAr": "الوفاق", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "fouarat", "nameFr": "Fouarat", "nameAr": "الفوارات", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "harhoura", "nameFr": "Harhoura", "nameAr": "هارهورة", "avgRentRoomMin": 2200, "avgRentRoomMax": 3200 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "05",
+    "nameFr": "Béni Mellal-Khénifra",
+    "nameAr": "بني ملال - خنيفرة",
+    "cities": [
+      {
+        "id": "beni_mellal",
+        "nameFr": "Béni Mellal",
+        "nameAr": "بني ملال",
+        "zipCode": "23000",
+        "neighborhoods": [
+          { "id": "al_hoda", "nameFr": "Al Hoda", "nameAr": "الهدى", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "riad_salam", "nameFr": "Riad Salam", "nameAr": "رياض السلام", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      },
+      {
+        "id": "khenifra",
+        "nameFr": "Khénifra",
+        "nameAr": "خنيفرة",
+        "zipCode": "54000",
+        "neighborhoods": [
+          { "id": "centre_khenifra", "nameFr": "Centre-ville", "nameAr": "وسط المدينة", "avgRentRoomMin": 800, "avgRentRoomMax": 1300 }
+        ]
+      },
+      {
+        "id": "khouribga",
+        "nameFr": "Khouribga",
+        "nameAr": "خريبكة",
+        "zipCode": "25000",
+        "neighborhoods": [
+          { "id": "hay_alfath", "nameFr": "Hay Al Fath", "nameAr": "حي الفتح", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "06",
+    "nameFr": "Casablanca-Settat",
+    "nameAr": "الدار البيضاء - سطات",
+    "cities": [
+      {
+        "id": "casablanca",
+        "nameFr": "Casablanca",
+        "nameAr": "الدار البيضاء",
+        "zipCode": "20000",
+        "neighborhoods": [
+          { "id": "maarif", "nameFr": "Maârif", "nameAr": "المعارف", "avgRentRoomMin": 1800, "avgRentRoomMax": 2600 },
+          { "id": "bourgogne", "nameFr": "Bourgogne", "nameAr": "بورغون", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 },
+          { "id": "gauthier", "nameFr": "Gauthier", "nameAr": "غوتييه", "avgRentRoomMin": 2200, "avgRentRoomMax": 3200 },
+          { "id": "palmiers", "nameFr": "Les Palmiers", "nameAr": "النخيل", "avgRentRoomMin": 2000, "avgRentRoomMax": 2900 },
+          { "id": "ain_diab", "nameFr": "Aïn Diab", "nameAr": "عين الذئاب", "avgRentRoomMin": 3000, "avgRentRoomMax": 4500 },
+          { "id": "ankfa", "nameFr": "Anfa", "nameAr": "أنفا", "avgRentRoomMin": 2800, "avgRentRoomMax": 4000 },
+          { "id": "belvedere", "nameFr": "Belvédère", "nameAr": "بيلفيدير", "avgRentRoomMin": 1500, "avgRentRoomMax": 2100 },
+          { "id": "ain_sebaa", "nameFr": "Aïn Sebaâ", "nameAr": "عين السبع", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "sidi_bernoussi", "nameFr": "Sidi Bernoussi", "nameAr": "سيدي برنوصي", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "hay_hassani", "nameFr": "Hay Hassani", "nameAr": "الحي الحسني", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "oULFA", "nameFr": "Oulfa", "nameAr": "الألفة", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "sidi_maarouf", "nameFr": "Sidi Maârouf", "nameAr": "سيدي معروف", "avgRentRoomMin": 1400, "avgRentRoomMax": 2100 },
+          { "id": "casa_nearshore", "nameFr": "Nearshore", "nameAr": "نيارشور", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 }
+        ]
+      },
+      {
+        "id": "mohammedia",
+        "nameFr": "Mohammedia",
+        "nameAr": "المحمدية",
+        "zipCode": "28810",
+        "neighborhoods": [
+          { "id": "parc", "nameFr": "Parc", "nameAr": "المنتزه", "avgRentRoomMin": 1500, "avgRentRoomMax": 2200 },
+          { "id": "la_siesta", "nameFr": "La Siesta", "nameAr": "سييستا", "avgRentRoomMin": 1800, "avgRentRoomMax": 2500 },
+          { "id": "el_alia", "nameFr": "El Alia", "nameAr": "العالية", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 }
+        ]
+      },
+      {
+        "id": "el_jadida",
+        "nameFr": "El Jadida",
+        "nameAr": "الجديدة",
+        "zipCode": "24000",
+        "neighborhoods": [
+          { "id": "plage_el_jadida", "nameFr": "Plage", "nameAr": "الشاطئ", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "hay_assalam_jadida", "nameFr": "Hay Assalam", "nameAr": "حي السلام", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 }
+        ]
+      },
+      {
+        "id": "settat",
+        "nameFr": "Settat",
+        "nameAr": "سطات",
+        "zipCode": "26000",
+        "neighborhoods": [
+          { "id": "mafaza", "nameFr": "Miftaah El Kheir", "nameAr": "مفتاح الخير", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "07",
+    "nameFr": "Marrakech-Safi",
+    "nameAr": "مراكش - آسفي",
+    "cities": [
+      {
+        "id": "marrakech",
+        "nameFr": "Marrakech",
+        "nameAr": "مراكش",
+        "zipCode": "40000",
+        "neighborhoods": [
+          { "id": "gueliz", "nameFr": "Guéliz", "nameAr": "جليز", "avgRentRoomMin": 2000, "avgRentRoomMax": 3000 },
+          { "id": "hivernage", "nameFr": "Hivernage", "nameAr": "الشتوة", "avgRentRoomMin": 2500, "avgRentRoomMax": 3800 },
+          { "id": "daoudiate", "nameFr": "Daoudiate", "nameAr": "الداوديات", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "targa", "nameFr": "Targa", "nameAr": "تاركة", "avgRentRoomMin": 1800, "avgRentRoomMax": 2600 },
+          { "id": "massira", "nameFr": "Massira", "nameAr": "المسيرة", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "palmeraie", "nameFr": "Palmeraie", "nameAr": "النخيل", "avgRentRoomMin": 2800, "avgRentRoomMax": 4200 },
+          { "id": "medina_marrakech", "nameFr": "Médina", "nameAr": "المدينة العتيقة", "avgRentRoomMin": 1500, "avgRentRoomMax": 2300 },
+          { "id": "sidi_youssef_ben_ali", "nameFr": "Sidi Youssef Ben Ali", "nameAr": "سيدي يوسف بن علي", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 },
+          { "id": "mhamid", "nameFr": "M'hamid", "nameAr": "المحاميد", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      },
+      {
+        "id": "safi",
+        "nameFr": "Safi",
+        "nameAr": "آسفي",
+        "zipCode": "46000",
+        "neighborhoods": [
+          { "id": "plateau", "nameFr": "Le Plateau", "nameAr": "البلاطو", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "sidi_bouzid", "nameFr": "Sidi Bouzid", "nameAr": "سيدي بوزيد", "avgRentRoomMin": 1400, "avgRentRoomMax": 2100 },
+          { "id": "medina_safi", "nameFr": "Médina", "nameAr": "المدينة العتيقة", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "biada", "nameFr": "Biada", "nameAr": "بياضة", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 },
+          { "id": "kawki", "nameFr": "Kawki", "nameAr": "كاوكي", "avgRentRoomMin": 850, "avgRentRoomMax": 1300 },
+          { "id": "moussa_ben_noussair", "nameFr": "Moussa Ben Noussair", "nameAr": "موسى بن نصير", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "zin el abidine", "nameFr": "Zine El Abidine", "nameAr": "زين العابدين", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      },
+      {
+        "id": "essaouira",
+        "nameFr": "Essaouira",
+        "nameAr": "الصويرة",
+        "zipCode": "44000",
+        "neighborhoods": [
+          { "id": "medina_essaouira", "nameFr": "Médina", "nameAr": "المدينة العتيقة", "avgRentRoomMin": 1400, "avgRentRoomMax": 2200 },
+          { "id": "borj", "nameFr": "Ghazoua / Borj", "nameAr": "الغزوة", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "08",
+    "nameFr": "Drâa-Tafilalet",
+    "nameAr": "درعة - تافيلالت",
+    "cities": [
+      {
+        "id": "errachidia",
+        "nameFr": "Errachidia",
+        "nameAr": "الرشيدية",
+        "zipCode": "52000",
+        "neighborhoods": [
+          { "id": "taljijt", "nameFr": "Taljijt", "nameAr": "تلجيجت", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "hay_al_mouhit", "nameFr": "Hay Al Mouhit", "nameAr": "حي المحيط", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 }
+        ]
+      },
+      {
+        "id": "ouarzazate",
+        "nameFr": "Ouarzazate",
+        "nameAr": "ورزازات",
+        "zipCode": "45000",
+        "neighborhoods": [
+          { "id": "tabounte", "nameFr": "Tabounte", "nameAr": "تابونت", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "hay_al_qods_ouarzazate", "nameFr": "Hay Al Qods", "nameAr": "حي القدس", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "09",
+    "nameFr": "Souss-Massa",
+    "nameAr": "سوس - ماسة",
+    "cities": [
+      {
+        "id": "agadir",
+        "nameFr": "Agadir",
+        "nameAr": "أكادير",
+        "zipCode": "80000",
+        "neighborhoods": [
+          { "id": "talborjt", "nameFr": "Talborjt", "nameAr": "تلبرجت", "avgRentRoomMin": 1600, "avgRentRoomMax": 2300 },
+          { "id": "charaf", "nameFr": "Charaf", "nameAr": "الشرف", "avgRentRoomMin": 1700, "avgRentRoomMax": 2400 },
+          { "id": "founty", "nameFr": "Founty", "nameAr": "فونتي", "avgRentRoomMin": 2500, "avgRentRoomMax": 3600 },
+          { "id": "dakhla_agadir", "nameFr": "Dakhla", "nameAr": "الداخلة", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "salam_agadir", "nameFr": "Hay Salam", "nameAr": "حي السلام", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "bensergao", "nameFr": "Bensergao", "nameAr": "بنـسركَاو", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "tikiouine", "nameFr": "Tikiouine", "nameAr": "تيكيوين", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      },
+      {
+        "id": "inezgane",
+        "nameFr": "Inezgane",
+        "nameAr": "إنزكان",
+        "zipCode": "80350",
+        "neighborhoods": [
+          { "id": "centre_inezgane", "nameFr": "Centre-ville", "nameAr": "وسط المدينة", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 }
+        ]
+      },
+      {
+        "id": "taroudant",
+        "nameFr": "Taroudant",
+        "nameAr": "تارودانت",
+        "zipCode": "83000",
+        "neighborhoods": [
+          { "id": "lasat", "nameFr": "Lassat", "nameAr": "السطات", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "10",
+    "nameFr": "Guelmim-Oued Noun",
+    "nameAr": "كلميم - واد نون",
+    "cities": [
+      {
+        "id": "guelmim",
+        "nameFr": "Guelmim",
+        "nameAr": "كلميم",
+        "zipCode": "81000",
+        "neighborhoods": [
+          { "id": "centre_guelmim", "nameFr": "Centre-ville", "nameAr": "وسط المدينة", "avgRentRoomMin": 1000, "avgRentRoomMax": 1500 },
+          { "id": "hay_alfath_guelmim", "nameFr": "Hay Al Fath", "nameAr": "حي الفتح", "avgRentRoomMin": 900, "avgRentRoomMax": 1350 }
+        ]
+      },
+      {
+        "id": "tan_tan",
+        "nameFr": "Tan-Tan",
+        "nameAr": "طانطان",
+        "zipCode": "82000",
+        "neighborhoods": [
+          { "id": "hay_dahra", "nameFr": "Hay Dahra", "nameAr": "حي الصحراء", "avgRentRoomMin": 850, "avgRentRoomMax": 1300 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "11",
+    "nameFr": "Laâyoune-Sakia El Hamra",
+    "nameAr": "العيون - الساقية الحمراء",
+    "cities": [
+      {
+        "id": "laayoune",
+        "nameFr": "Laâyoune",
+        "nameAr": "العيون",
+        "zipCode": "70000",
+        "neighborhoods": [
+          { "id": "hay_alamal", "nameFr": "Hay Al Amal", "nameAr": "حي الأمل", "avgRentRoomMin": 1200, "avgRentRoomMax": 1800 },
+          { "id": "hay_el_wahda", "nameFr": "Hay El Wahda", "nameAr": "حي الوحدة", "avgRentRoomMin": 1100, "avgRentRoomMax": 1600 },
+          { "id": "colominas", "nameFr": "Colominas", "nameAr": "كولوميناس", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 }
+        ]
+      },
+      {
+        "id": "boujdour",
+        "nameFr": "Boujdour",
+        "nameAr": "بوجدور",
+        "zipCode": "71000",
+        "neighborhoods": [
+          { "id": "hay_alkhair", "nameFr": "Hay Al Khair", "nameAr": "حي الخير", "avgRentRoomMin": 900, "avgRentRoomMax": 1400 }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "12",
+    "nameFr": "Dakhla-Oued Ed-Dahab",
+    "nameAr": "الداخلة - وادي الذهب",
+    "cities": [
+      {
+        "id": "dakhla",
+        "nameFr": "Dakhla",
+        "nameAr": "الداخلة",
+        "zipCode": "73000",
+        "neighborhoods": [
+          { "id": "alamine", "nameFr": "Al Amine", "nameAr": "الأمين", "avgRentRoomMin": 1400, "avgRentRoomMax": 2000 },
+          { "id": "hay_kassam", "nameFr": "Hay Kassam", "nameAr": "حي القسم", "avgRentRoomMin": 1300, "avgRentRoomMax": 1900 },
+          { "id": "la_madrague", "nameFr": "La Madrague", "nameAr": "المادراغ", "avgRentRoomMin": 1800, "avgRentRoomMax": 2700 }
         ]
       }
     ]
